@@ -1,0 +1,50 @@
+.centerContainer {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.App-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /*margin: 20% auto;*/
+}
+
+.App-link {
+  color: #61dafb;
+  font-size: 24px;
+  margin: 0;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  margin-top: 10px;
+}
+
+.whiteBox {
+  padding: 5px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+input {
+  color: #fff !important;
+}
+
+.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #61dafb !important;
+}
+
+.pContainer {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
